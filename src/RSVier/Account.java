@@ -15,7 +15,8 @@ public class Account {
     private String Wachtwoord;
     private char   AccountSoort;
     // A = admin M = medewerker K = klant
-
+    
+    
     /**
      * @return Gebruikersnaam
      */
