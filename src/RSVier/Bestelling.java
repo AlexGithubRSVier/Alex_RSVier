@@ -13,7 +13,8 @@ public class Bestelling {
     private int  BestelNummer;
     private char BestelStatus;
     // A = bestelling aangemaakt L = bestelling geleverd B = bestelling betaald
-
+    private int  KlantNummer;
+    
     /**
      * @return BestelNummer
      */
@@ -40,5 +41,19 @@ public class Bestelling {
      */
     public void setBestelStatus(char BestelStatus) {
         this.BestelStatus = BestelStatus;
+    }
+
+    /**
+     * @return KlantNummer
+     */
+    public int getKlantNummer() {
+        return KlantNummer;
+    }
+
+    /**
+     * @param KlantNummer to set
+     */
+    public void setKlantNummer(int KlantNummer) {
+        this.KlantNummer = KlantNummer;
     }
 }
